@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* head*/
+header {
+    font-family: Roboto;
+    background: #EAC926;
+    width: 100vw;
+}
+.logoMercadoLiebre{
+    width: 200px;
+    padding: 10px;
+}
+body{
+    box-sizing: border-box;
+}
+body header p {
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+ul {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+
+.menuBurguer {
+    border-radius: 4px;
+    padding: 4px;
+    width: 30px;
+    background-color: #0044aa;
+    color: white;
+    margin-left: 45%;
+   
+    
+   
+}
+
+
+/* body*/
+body {
+    font-family: Roboto;
+}
+main section img {
+    width: 100%;
+}
+.product_img{
+    width: 100%;
+}
+.titulares {
+    
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+    
+}
+
+.descuentos, .iconTruck {
+    font-size: 16px;
+    color: rgb(35, 130, 43);
+}
+
+.descripciones {
+    font-size: 16px;
+    color: #363636;
+}
+
+.cuerposDeTexto {
+    font-size: 12px;
+}
+
+/* footer*/
+footer {
+    color: #363636;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+footer svg {
+    color: #09669f;
+    font-size: 25px;
+    margin: 6px;
+   
+}
+
+.marginLeftHead {
+    margin-left: 10px;
+}
+.marginleft{
+    margin-left: 15px;
+}
