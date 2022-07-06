@@ -6,64 +6,129 @@
 
 /* head*/
 header {
+
     font-family: Roboto;
     background: #EAC926;
     width: 100vw;
+    padding: 4vw;
 }
-.logoMercadoLiebre{
-    width: 200px;
-    padding: 10px;
+.header-logo-searchBar-text-button{
+    display: flex;
 }
-body{
-    box-sizing: border-box;
+.logoMercadoLiebre {
+    width: 100px;
+
 }
+
+
 body header p {
     text-align: center;
     padding: 10px;
-    box-sizing: border-box;
+
 }
 
 ul {
     margin-top: 10px;
-    margin-left: 15px;
+
 }
 
-
-
-.menuBurguer {
+.burger-menu {
     border-radius: 4px;
     padding: 4px;
     width: 30px;
     background-color: #0044aa;
     color: white;
-    margin-left: 45%;
-   
-    
-   
+    margin: auto;
+    text-align: center;
+    margin-bottom: -16px;
+    margin-top: 13px;
+
+
 }
 
 
 /* body*/
+
 body {
     font-family: Roboto;
+    background-color: #ebebeb;
+
 }
-main section img {
+
+section img {
     width: 100%;
 }
-.product_img{
+
+.product_img {
     width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+
+section.articulos {
+    width: 100%;
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 5%;
+    background: white;
+}
+
+section.cuerpoDelArticulo {
+    border-top: 0.5px solid #d2d2d2;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.iconBorderRadius {
+
+    position: relative;
+}
+
+.iconTruck {
+    border: 1px solid rgb(35, 130, 43);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 16px;
+    background: white;
+    position: absolute;
+    right: 9px;
+    top: -47px;
+}
+
+
 .titulares {
-    
+
     font-size: 24px;
 }
 
-.precios {
-    font-size: 18px;
+.precios-y-descuentos {
+    display: flex;
     
 }
 
-.descuentos, .iconTruck {
+.precios{
+    width: 30%;
+    margin-right: 10px;
+}
+
+
+
+
+.descuentos,
+.iconTruck {
     font-size: 16px;
     color: rgb(35, 130, 43);
 }
@@ -73,9 +138,7 @@ main section img {
     color: #363636;
 }
 
-.cuerposDeTexto {
-    font-size: 12px;
-}
+
 
 /* footer*/
 footer {
@@ -89,12 +152,34 @@ footer svg {
     color: #09669f;
     font-size: 25px;
     margin: 6px;
-   
+
 }
 
-.marginLeftHead {
-    margin-left: 10px;
+.descripciones {
+    display: none;
 }
-.marginleft{
-    margin-left: 15px;
+
+/* tablet */
+@media(min-width: 361px) {
+    .contenedor-articulos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    section.articulos {
+
+        box-shadow: 10px 10px 12px -8px rgba(0, 0, 0, 0.57);
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .descripciones {
+        display: block;
+    }
+
+
 }
